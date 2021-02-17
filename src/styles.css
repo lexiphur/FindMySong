@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.AnimeContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.AnimeCard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black
+}
+
+.SongNames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
